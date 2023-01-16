@@ -30,7 +30,7 @@ alias preview="fzf --preview 'bat --color \"always\" {}'"
 
 alias help='tldr'
 
-export treeL () {tree -L $1}
+export treel () {tree -L ${1:-'1'}}
 
 alias top="sudo htop"
 
